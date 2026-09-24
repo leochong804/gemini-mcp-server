@@ -40,4 +40,4 @@ packages = ["src/gemini_mcp"]
 pythonpath = ["src"]
 
 [tool.vercel]
-entrypoint = "src/gemini_mcp/server.py"
+entrypoint = "gemini_mcp.server:app"
